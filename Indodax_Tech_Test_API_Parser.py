@@ -15,7 +15,7 @@ def store_data(date, price, amount, tid, types):
 
     db = ps.connect(database="indodax_tech_test",
                     user="postgres",
-                    password="smanivda",
+                    password="",
                     host="127.0.0.1",
                     port="5433")
     cursor = db.cursor()
